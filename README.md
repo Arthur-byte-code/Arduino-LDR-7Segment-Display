@@ -27,3 +27,7 @@ Upon powering the project, the LDR sensor reads the ambient light intensity. The
 ## Contributions
 
 Contributions are welcome! Feel free to open issues, suggest improvements, or submit pull requests.
+
+# How does the 7 segments display works
+![976_203](https://github.com/Arthur-byte-code/Arduino-LDR-7Segment-Display/assets/152222113/bca6a9dc-4d8c-4dc8-b2b2-709c470d9799)
+
