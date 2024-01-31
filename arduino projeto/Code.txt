@@ -1,0 +1,128 @@
+//feito por arthur
+int ledA = 2;
+int ledB = 3;
+int ledC = 4;
+int ledD = 5;
+int ledE = 6;
+int ledF = 7;
+int ledG = 8;
+
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(ledA, OUTPUT);
+  pinMode(ledB, OUTPUT);
+  pinMode(ledC, OUTPUT);
+  pinMode(ledD, OUTPUT);
+  pinMode(ledE, OUTPUT);
+  pinMode(ledF, OUTPUT);
+  pinMode(ledG, OUTPUT);
+}
+
+void loop() {
+  int leitura = analogRead(A5);
+ int test = map(leitura,11, 816, 0, 9 );// realiza um mapeamento automatico entre os intervalos de numeros e entende a  equivalencia entre eles
+  Serial.println(leitura);
+  delay(50);
+  
+
+  if (test==0){
+    digitalWrite(ledA, 1);
+    digitalWrite(ledB, 1);
+    digitalWrite(ledC, 1);
+    digitalWrite(ledD, 1);
+    digitalWrite(ledE, 1);
+    digitalWrite(ledF, 1);
+    digitalWrite(ledG, 0);
+  }
+
+  else if (test == 1) {
+    digitalWrite(ledA, 0);
+    digitalWrite(ledB, 1);
+    digitalWrite(ledC, 1);
+    digitalWrite(ledD, 0);
+    digitalWrite(ledE, 0);
+    digitalWrite(ledF, 0);
+    digitalWrite(ledG, 0);
+  }
+
+  else if (test == 2) {
+    digitalWrite(ledA, 1);
+    digitalWrite(ledB, 1);
+    digitalWrite(ledC, 0);
+    digitalWrite(ledD, 1);
+    digitalWrite(ledE, 1);
+    digitalWrite(ledF, 0);
+    digitalWrite(ledG, 1);
+  }
+
+  else if (test == 3) {
+    digitalWrite(ledA, 1);
+    digitalWrite(ledB, 1);
+    digitalWrite(ledC, 1);
+    digitalWrite(ledD, 1);
+    digitalWrite(ledE, 0);
+    digitalWrite(ledF, 0);
+    digitalWrite(ledG, 1);
+  }
+
+  else if (test == 4) {
+    digitalWrite(ledA, 0);
+    digitalWrite(ledB, 1);
+    digitalWrite(ledC, 1);
+    digitalWrite(ledD, 0);
+    digitalWrite(ledE, 0);
+    digitalWrite(ledF, 1);
+    digitalWrite(ledG, 1);
+  }
+
+  else if (test == 5) {
+    digitalWrite(ledA, 1);
+    digitalWrite(ledB, 0);
+    digitalWrite(ledC, 1);
+    digitalWrite(ledD, 1);
+    digitalWrite(ledE, 0);
+    digitalWrite(ledF, 1);
+    digitalWrite(ledG, 1);
+  }
+
+  else if (test == 6) {
+    digitalWrite(ledA, 1);
+    digitalWrite(ledB, 0);
+    digitalWrite(ledC, 1);
+    digitalWrite(ledD, 1);
+    digitalWrite(ledE, 1);
+    digitalWrite(ledF, 1);
+    digitalWrite(ledG, 1);
+  }
+
+  else if (test == 7) {
+    digitalWrite(ledA, 1);
+    digitalWrite(ledB, 1);
+    digitalWrite(ledC, 1);
+    digitalWrite(ledD, 0);
+    digitalWrite(ledE, 0);
+    digitalWrite(ledF, 0);
+    digitalWrite(ledG, 0);
+  }
+
+  else if (test == 8) {
+    digitalWrite(ledA, 1);
+    digitalWrite(ledB, 1);
+    digitalWrite(ledC, 1);
+    digitalWrite(ledD, 1);
+    digitalWrite(ledE, 1);
+    digitalWrite(ledF, 1);
+    digitalWrite(ledG, 1);
+  }
+
+  else if (test == 9) {
+    digitalWrite(ledA, 1);
+    digitalWrite(ledB, 1);
+    digitalWrite(ledC, 1);
+    digitalWrite(ledD, 1);
+    digitalWrite(ledE, 0);
+    digitalWrite(ledF, 1);
+    digitalWrite(ledG, 1);
+  }
+}
