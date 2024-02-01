@@ -7,6 +7,17 @@
 
 This Arduino project utilizes a Light Dependent Resistor (LDR) to measure ambient light intensity and displays numbers from 0 to 9 on a 7-segment LED display. The code automatically maps the values read by the sensor to the desired range and lights up the corresponding LEDs to represent the number.
 
+
+# What is LDR?
+![image](https://github.com/Arthur-byte-code/Arduino-LDR-7Segment-Display/assets/152222113/581a5547-2dab-434f-bd2f-e198c9c0a7c2)
+
+
+LDR stands for "Light-Dependent Resistor." It is a type of resistor whose resistance changes with the amount of light falling on it. LDRs are also known as photoresistors or photocells.
+
+When exposed to light, the resistance of an LDR decreases, and when in darkness, its resistance increases. This property makes LDRs useful in various electronic applications where light levels need to be detected or controlled.
+
+LDRs are commonly used in light-sensitive devices such as automatic street lights, camera exposure control, and ambient light sensors in electronic gadgets. They provide a simple and effective way to sense and respond to changes in light levels in different environments.
+
 ## Required Components
 
 - Arduino (any compatible model)
