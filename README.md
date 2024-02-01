@@ -9,7 +9,7 @@ This Arduino project utilizes a Light Dependent Resistor (LDR) to measure ambien
 
 
 # What is LDR?
-![image](https://github.com/Arthur-byte-code/Arduino-LDR-7Segment-Display/assets/152222113/581a5547-2dab-434f-bd2f-e198c9c0a7c2)
+![image](https://github.com/Arthur-byte-code/Arduino-LDR-7Segment-Display/assets/152222113/bac39911-8414-42db-9cca-d26ecf766459)
 
 
 LDR stands for "Light-Dependent Resistor." It is a type of resistor whose resistance changes with the amount of light falling on it. LDRs are also known as photoresistors or photocells.
