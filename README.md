@@ -42,3 +42,6 @@ Contributions are welcome! Feel free to open issues, suggest improvements, or su
 # How does the 7 segments display works
 ![976_203](https://github.com/Arthur-byte-code/Arduino-LDR-7Segment-Display/assets/152222113/bca6a9dc-4d8c-4dc8-b2b2-709c470d9799)
 
+
+A seven-segment display is a visual representation of numerical digits or other characters using seven individual segments. These segments are arranged in the shape of the number "8" and can be illuminated in various combinations to display different numbers (0-9) or some alphanumeric characters. Each segment is designated a letter (A to G), and by selectively turning on or off these segments, different characters can be displayed. Seven-segment displays are commonly used in electronic devices, such as digital clocks, calculators, and electronic meters, due to their simplicity and efficiency in displaying numerical information.
+
