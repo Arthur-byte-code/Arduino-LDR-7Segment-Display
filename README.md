@@ -1,4 +1,4 @@
-# Preview:
+# Preview (TinkerCad):
 ![Running](https://github.com/Arthur-byte-code/Arduino-LDR-7Segment-Display/assets/152222113/9ca38b49-dd6e-4357-bfa2-747496f0948d)
 
 ---
@@ -44,4 +44,17 @@ Contributions are welcome! Feel free to open issues, suggest improvements, or su
 
 
 A seven-segment display is a visual representation of numerical digits or other characters using seven individual segments. These segments are arranged in the shape of the number "8" and can be illuminated in various combinations to display different numbers (0-9) or some alphanumeric characters. Each segment is designated a letter (A to G), and by selectively turning on or off these segments, different characters can be displayed. Seven-segment displays are commonly used in electronic devices, such as digital clocks, calculators, and electronic meters, due to their simplicity and efficiency in displaying numerical information.
+
+
+# What is a protoboard and how it works:
+![IMG_20240214_101631](https://github.com/Arthur-byte-code/Arduino-LDR-7Segment-Display/assets/152222113/45a25e54-94af-4ac2-ad6a-7469f8d434d1)
+
+A protoboard, also known as a breadboard or solderless breadboard, is a plastic board with a grid of holes interconnected by conductive traces. It's used to build temporary electronic circuits without the need for soldering. Electronic components can be inserted into the holes of the protoboard and connected to each other using jumpers (conductive wires) inserted into adjacent holes. This allows for quick assembly, disassembly, and modification of circuits for experimentation and prototyping purposes.
+
+# What is Tinkercad:
+
+![images (9)](https://github.com/Arthur-byte-code/Arduino-LDR-7Segment-Display/assets/152222113/a3608713-cce5-4583-9822-6a9632c05d69)
+
+Tinkercad is an online 3D modeling and design platform developed by Autodesk. It provides simple and intuitive tools for creating 3D models, electronic circuits, and even coding projects. Tinkercad is widely used by students, teachers, makers, and technology enthusiasts for rapid prototyping, STEM learning (Science, Technology, Engineering, and Mathematics), and creative project creation.
+
 
