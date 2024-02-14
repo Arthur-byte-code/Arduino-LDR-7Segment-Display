@@ -49,7 +49,7 @@ A seven-segment display is a visual representation of numerical digits or other 
 # What is a protoboard and how it works:
 ![IMG_20240214_101631](https://github.com/Arthur-byte-code/Arduino-LDR-7Segment-Display/assets/152222113/45a25e54-94af-4ac2-ad6a-7469f8d434d1)
 
-A protoboard, also known as a breadboard or solderless breadboard, is a plastic board with a grid of holes interconnected by conductive traces. It's used to build temporary electronic circuits without the need for soldering. Electronic components can be inserted into the holes of the protoboard and connected to each other using jumpers (conductive wires) inserted into adjacent holes. This allows for quick assembly, disassembly, and modification of circuits for experimentation and prototyping purposes.
+A protoboard, also known as a breadboard or solderless breadboard, is a plastic board with a grid of holes interconnected by conductive traces. It's used to build temporary electronic circuits without the need for soldering. Electronic components can be inserted into the holes of the protoboard and connected to each other using jumpers (conductive wires) inserted into near holes. This allows for quick assembly, disassembly, and modification of circuits for experimentation and prototyping purposes.
 
 # What is Tinkercad:
 
